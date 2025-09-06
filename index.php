@@ -1,3 +1,16 @@
+
+<?php
+
+require_once __DIR__ . '/functions.php';
+
+$discs = getDisch(); 
+
+// var_dump($discs); 
+
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,7 +29,7 @@
 
     <hr>
 
-    
+
 
 </div>
     

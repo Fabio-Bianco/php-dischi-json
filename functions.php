@@ -1,4 +1,4 @@
-//funzione che restituisce il contenuto del file JSON
+
 
 <?php
 
