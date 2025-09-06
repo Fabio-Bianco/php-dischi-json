@@ -1,0 +1,58 @@
+[
+  {
+    "titolo": "Nevermind",
+    "artista": "Nirvana",
+    "cover": "https://i.imgur.com/abcd1.jpg",
+    "anno": 1991,
+    "genere": "Grunge"
+  },
+  {
+    "titolo": "Random Access Memories",
+    "artista": "Daft Punk",
+    "cover": "https://i.imgur.com/abcd2.jpg",
+    "anno": 2013,
+    "genere": "Electronic"
+  },
+  {
+    "titolo": "The Dark Side of the Moon",
+    "artista": "Pink Floyd",
+    "cover": "https://i.imgur.com/abcd3.jpg",
+    "anno": 1973,
+    "genere": "Progressive Rock"
+  },
+  {
+    "titolo": "Back in Black",
+    "artista": "AC/DC",
+    "cover": "https://i.imgur.com/abcd4.jpg",
+    "anno": 1980,
+    "genere": "Hard Rock"
+  },
+  {
+    "titolo": "Thriller",
+    "artista": "Michael Jackson",
+    "cover": "https://i.imgur.com/abcd5.jpg",
+    "anno": 1982,
+    "genere": "Pop"
+  },
+  {
+    "titolo": "OK Computer",
+    "artista": "Radiohead",
+    "cover": "https://i.imgur.com/abcd6.jpg",
+    "anno": 1997,
+    "genere": "Alternative Rock"
+  },
+  {
+    "titolo": "The Eminem Show",
+    "artista": "Eminem",
+    "cover": "https://i.imgur.com/abcd7.jpg",
+    "anno": 2002,
+    "genere": "Hip Hop"
+  },
+  {
+    "titolo": "21",
+    "artista": "Adele",
+    "cover": "https://i.imgur.com/abcd8.jpg",
+    "anno": 2011,
+    "genere": "Soul"
+  }
+]
