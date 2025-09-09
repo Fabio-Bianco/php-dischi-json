@@ -1,88 +1,98 @@
 [
-  {
-    "titolo": "Nevermind",
-    "artista": "Nirvana",
-    "cover": "https://upload.wikimedia.org/wikipedia/en/b/b7/NirvanaNevermindalbumcover.jpg",
-    "anno": 1991,
-    "genere": "Grunge"
-  },
-  {
-    "titolo": "Abbey Road",
-    "artista": "The Beatles",
-    "cover": "https://upload.wikimedia.org/wikipedia/en/4/42/Beatles_-_Abbey_Road.jpg",
-    "anno": 1969,
-    "genere": "Rock"
-  },
-  {
-    "titolo": "The Dark Side of the Moon",
-    "artista": "Pink Floyd",
-    "cover": "https://upload.wikimedia.org/wikipedia/en/3/3b/Dark_Side_of_the_Moon.png",
-    "anno": 1973,
-    "genere": "Progressive Rock"
-  },
     {
-    "titolo": "Human After All",
-    "artista": "Daft Punk",
-    "cover": "https://upload.wikimedia.org/wikipedia/en/0/0d/Humanafterall.jpg",
-    "anno": 2005,
-    "genere": "Electronic"
-  },
-  {
-    "titolo": "Hotel California",
-    "artista": "Eagles",
-    "cover": "https://upload.wikimedia.org/wikipedia/en/4/49/Hotelcalifornia.jpg",
-    "anno": 1976,
-    "genere": "Rock"
-  },
-  {
-    "titolo": "Thriller",
-    "artista": "Michael Jackson",
-    "cover": "https://upload.wikimedia.org/wikipedia/en/5/55/Michael_Jackson_-_Thriller.png",
-    "anno": 1982,
-    "genere": "Pop"
-  },
-
-  {
-    "titolo": "Rumours",
-    "artista": "Fleetwood Mac",
-    "cover": "https://upload.wikimedia.org/wikipedia/en/f/fb/FMacRumours.PNG",
-    "anno": 1977,
-    "genere": "Rock"
-  },
-  {
-    "titolo": "The Wall",
-    "artista": "Pink Floyd",
-    "cover": "https://upload.wikimedia.org/wikipedia/en/1/13/PinkFloydWallCoverOriginalNoText.jpg",
-    "anno": 1979,
-    "genere": "Progressive Rock"
-  },
-  {
-    "titolo": "The Eminem Show",
-    "artista": "Eminem",
-    "cover": "https://upload.wikimedia.org/wikipedia/en/3/35/The_Eminem_Show.jpg",
-    "anno": 2002,
-    "genere": "Hip Hop"
-  },
-    
-  {
-    "titolo": "21",
-    "artista": "Adele",
-    "cover": "https://upload.wikimedia.org/wikipedia/en/1/1b/Adele_-_21.png",
-    "anno": 2011,
-    "genere": "Soul"
-  },
+        "id": "6647a30c1a3b1",
+        "titolo": "Nevermind",
+        "artista": "Nirvana",
+        "cover": "https:\/\/upload.wikimedia.org\/wikipedia\/en\/b\/b7\/NirvanaNevermindalbumcover.jpg",
+        "anno": 1991,
+        "genere": "Grunge"
+    },
     {
-    "titolo": "Rumours",
-    "artista": "Fleetwood Mac",
-    "cover": "https://upload.wikimedia.org/wikipedia/en/f/fb/FMacRumours.PNG",
-    "anno": 1977,
-    "genere": "Rock"
-  },
-  {
-    "titolo": "Nevermind the Bollocks, Here's the Sex Pistols",
-    "artista": "Sex Pistols",
-    "cover": "https://upload.wikimedia.org/wikipedia/en/4/4c/Never_Mind_the_Bollocks%2C_Here%27s_the_Sex_Pistols.png",
-    "anno": 1977,
-    "genere": "Punk Rock"
-  }
+        "id": "6647a30c1a3b2",
+        "titolo": "Abbey Road",
+        "artista": "The Beatles",
+        "cover": "https:\/\/upload.wikimedia.org\/wikipedia\/en\/4\/42\/Beatles_-_Abbey_Road.jpg",
+        "anno": 1969,
+        "genere": "Rock"
+    },
+    {
+        "id": "6647a30c1a3b3",
+        "titolo": "The Dark Side of the Moon",
+        "artista": "Pink Floyd",
+        "cover": "https:\/\/upload.wikimedia.org\/wikipedia\/en\/3\/3b\/Dark_Side_of_the_Moon.png",
+        "anno": 1973,
+        "genere": "Progressive Rock"
+    },
+    {
+        "id": "6647a30c1a3b4",
+        "titolo": "Human After All",
+        "artista": "Daft Punk",
+        "cover": "https:\/\/upload.wikimedia.org\/wikipedia\/en\/0\/0d\/Humanafterall.jpg",
+        "anno": 2005,
+        "genere": "Electronic"
+    },
+    {
+        "id": "6647a30c1a3b5",
+        "titolo": "Hotel California",
+        "artista": "Eagles",
+        "cover": "https:\/\/upload.wikimedia.org\/wikipedia\/en\/4\/49\/Hotelcalifornia.jpg",
+        "anno": 1976,
+        "genere": "Rock"
+    },
+    {
+        "id": "6647a30c1a3b6",
+        "titolo": "Thriller",
+        "artista": "Michael Jackson",
+        "cover": "https:\/\/upload.wikimedia.org\/wikipedia\/en\/5\/55\/Michael_Jackson_-_Thriller.png",
+        "anno": 1982,
+        "genere": "Pop"
+    },
+    {
+        "id": "6647a30c1a3b7",
+        "titolo": "Rumours",
+        "artista": "Fleetwood Mac",
+        "cover": "https:\/\/upload.wikimedia.org\/wikipedia\/en\/f\/fb\/FMacRumours.PNG",
+        "anno": 1977,
+        "genere": "Rock"
+    },
+    {
+        "id": "6647a30c1a3b8",
+        "titolo": "The Wall",
+        "artista": "Pink Floyd",
+        "cover": "https:\/\/upload.wikimedia.org\/wikipedia\/en\/1\/13\/PinkFloydWallCoverOriginalNoText.jpg",
+        "anno": 1979,
+        "genere": "Progressive Rock"
+    },
+    {
+        "id": "6647a30c1a3b9",
+        "titolo": "The Eminem Show",
+        "artista": "Eminem",
+        "cover": "https:\/\/upload.wikimedia.org\/wikipedia\/en\/3\/35\/The_Eminem_Show.jpg",
+        "anno": 2002,
+        "genere": "Hip Hop"
+    },
+    {
+        "id": "6647a30c1a3ba",
+        "titolo": "21",
+        "artista": "Adele",
+        "cover": "https:\/\/upload.wikimedia.org\/wikipedia\/en\/1\/1b\/Adele_-_21.png",
+        "anno": 2011,
+        "genere": "Soul"
+    },
+    {
+        "id": "6647a30c1a3bb",
+        "titolo": "Rumours",
+        "artista": "Fleetwood Mac",
+        "cover": "https:\/\/upload.wikimedia.org\/wikipedia\/en\/f\/fb\/FMacRumours.PNG",
+        "anno": 1977,
+        "genere": "Rock"
+    },
+    {
+        "id": "6647a30c1a3bc",
+        "titolo": "Nevermind the Bollocks, Here's the Sex Pistols",
+        "artista": "Sex Pistols",
+        "cover": "https:\/\/upload.wikimedia.org\/wikipedia\/en\/4\/4c\/Never_Mind_the_Bollocks%2C_Here%27s_the_Sex_Pistols.png",
+        "anno": 1977,
+        "genere": "Punk Rock"
+    }
 ]
