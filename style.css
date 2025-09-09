@@ -1,0 +1,130 @@
+/* ===========================
+   Palette & base
+   =========================== */
+:root {
+  --bg-body: #f5f6f8;
+  --card-bg: #ffffff;
+  --text-main: #212529;
+  --text-muted: #6c757d;
+  --brand: #0d6efd;
+  --accent: #20c997;
+  --shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
+  --shadow-hover: 0 10px 24px rgba(0, 0, 0, 0.12);
+  --radius: 14px;
+}
+
+html, body { height: 100%; }
+
+body.bg-light {
+  background: var(--bg-body) !important;
+  color: var(--text-main);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ===========================
+   Navbar
+   =========================== */
+.navbar { border-bottom: 1px solid rgba(255, 255, 255, 0.08); }
+.navbar .navbar-brand { font-weight: 700; letter-spacing: .2px; }
+
+/* ===========================
+   Layout
+   =========================== */
+main.container { padding-bottom: 48px; }
+@media (min-width: 992px) {
+  .row.g-4 {
+    --bs-gutter-y: 2rem;
+    --bs-gutter-x: 2rem;
+  }
+}
+
+/* ===========================
+   Card
+   =========================== */
+.card {
+  background: var(--card-bg);
+  border: 0;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  transition: transform .18s ease, box-shadow .18s ease;
+}
+.card:hover { transform: translateY(-4px); box-shadow: var(--shadow-hover); }
+.card .card-img-top {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-top-left-radius: var(--radius);
+  border-top-right-radius: var(--radius);
+  background: #e9ecef;
+}
+.card .card-title {
+  font-weight: 700;
+  font-size: 1.05rem;
+  margin-bottom: .25rem;
+  line-height: 1.25;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.card .card-text.text-muted {
+  color: var(--text-muted) !important;
+  margin-bottom: .75rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.badge.bg-primary { background: var(--brand) !important; }
+.badge.bg-secondary { background: #6c757d !important; }
+
+/* ===========================
+   Form (centrato via grid nel markup)
+   =========================== */
+form {
+  background: #fff;
+  border-radius: var(--radius);
+  padding: 18px;
+  margin-top: 32px;
+  box-shadow: var(--shadow);
+  border: 1px solid #eef0f3;
+}
+form .row.g-2 { --bs-gutter-x: 0.75rem; --bs-gutter-y: 0.75rem; }
+form .form-control {
+  border-radius: 10px;
+  border: 1px solid #dfe4ea;
+  padding: .625rem .8rem;
+  transition: border-color .2s ease, box-shadow .2s ease;
+}
+form .form-control:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 .2rem rgba(32, 201, 151, .15);
+  outline: none;
+}
+form .form-control::placeholder { color: #98a2b3; font-size: .95rem; }
+form .btn.btn-success {
+  background: var(--accent);
+  border-color: var(--accent);
+  font-weight: 700;
+  padding: .65rem 1.1rem;
+  border-radius: 10px;
+  transition: transform .15s ease, box-shadow .15s ease, filter .15s ease;
+}
+form .btn.btn-success:hover {
+  filter: brightness(0.95);
+  transform: translateY(-1px);
+  box-shadow: 0 8px 16px rgba(32, 201, 151, .25);
+}
+
+/* ===========================
+   Responsive
+   =========================== */
+@media (max-width: 575.98px) {
+  .navbar .navbar-brand { font-size: 1rem; }
+  .card .card-title { white-space: normal; }
+}
+
+/* (opzionale) limita un filo la larghezza su schermi enormi */
+@media (min-width: 1400px){
+  .col-xl-7 { max-width: 760px; }
+}

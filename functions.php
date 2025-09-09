@@ -10,6 +10,12 @@ function getDisch() {
 
 }
 
+function addDisch($disco) {
+    $file = __DIR__ . '/dischi.json';
+    $dischi = json_decode(file_get_contents($file), true);
+    $dischi[] = $disco;
+    file_put_contents($file, json_encode($dischi, JSON_PRETTY_PRINT));
+}
 
 
  ?>
